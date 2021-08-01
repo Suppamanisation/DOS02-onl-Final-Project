@@ -23,7 +23,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                  git branch: "master", url: "https://github.com/Suppamanisation/DOS02-onl-Final-Project.git"
+                  git branch: "main", url: "https://github.com/Suppamanisation/DOS02-onl-Final-Project.git"
                   }
             }
 
